@@ -6,6 +6,8 @@ using NetDaemon.Runtime;
 using NetDaemon.Extensions.Logging;
 using NetDaemon.Extensions.Scheduler;
 using NetDaemon.Extensions.Tts;
+// Add next line if using code generator
+//using HomeAssistantGenerated;
 
 #pragma warning disable CA1812
 
@@ -21,6 +23,8 @@ try
                 .AddAppsFromAssembly(Assembly.GetExecutingAssembly())
                 .AddNetDaemonStateManager()
                 .AddNetDaemonScheduler()
+                // Add next line if using code generator
+                // .AddHomeAssistantGenerated()
         )
         .Build()
         .RunAsync()
