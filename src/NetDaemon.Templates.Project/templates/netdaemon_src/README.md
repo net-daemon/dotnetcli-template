@@ -8,6 +8,9 @@ Please see [netdaemon.xyz](https://netdaemon.xyz/docs/v3) for more information a
 
 Please add code generation features in `program.cs` when using code generation features by removing comments!
 
+## Use the code generator
+See https://netdaemon.xyz/docs/v3/hass_model/hass_model_codegen
+
 ## Issues
 
 - If you have issues or suggestions of improvements to this template, please [add an issue](https://github.com/net-daemon/netdaemon-app-template)
