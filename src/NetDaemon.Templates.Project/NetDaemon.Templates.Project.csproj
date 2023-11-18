@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>JoySoftware.NetDaemon.Templates.Project</PackageId>
+    <PackageId>NetDaemon.Templates.Project</PackageId>
     <PackageVersion>22.1.0</PackageVersion>
     <PackageType>Template</PackageType>
     <Title>Netdaemon project template for dotnet cli</Title>
