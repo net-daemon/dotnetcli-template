@@ -14,6 +14,6 @@ ForEach ($file in Get-ChildItem . -Recurse | Where-Object { $_.Extension -like "
     ForEach ($package in $packages) {
         Write-Host "Update $file package :$package"  -ForegroundColor Magenta
         $fullName = $file.FullName
-        Invoke-Expression "dotnet add $fullName package $package"
+        & dotnet add $fullName package $package
     }
 }
