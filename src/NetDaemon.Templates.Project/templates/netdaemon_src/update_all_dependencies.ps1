@@ -1,5 +1,5 @@
 # Update the codegen
-dotnet tool update joysoftware.netdaemon.hassmodel.codegen
+dotnet tool update -g NetDaemon.HassModel.CodeGen
 
 # Update all nugets to latest versions
 $regex = 'PackageReference Include="([^"]*)" Version="([^"]*)"'
