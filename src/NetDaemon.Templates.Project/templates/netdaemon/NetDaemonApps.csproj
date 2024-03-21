@@ -22,7 +22,7 @@
         </None>
     </ItemGroup>
     <Target Name="AfterPublishMessage" AfterTargets="Publish">
-        <Message Text="Publish done! Copy all content in directory: $(PublishDir) to the `/config/netdaemon3' folder for add-on or your custom folder to deplpoy" Importance="high" />
+        <Message Text="Publish done! Copy all content in directory: $(PublishDir) to the `/config/netdaemon4' folder for add-on or your custom folder to deploy." Importance="high" />
     </Target>
         
     <ItemGroup>
