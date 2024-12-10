@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>NetDaemon.Templates.Project</PackageId>
-    <PackageVersion>22.1.0</PackageVersion>
+    <PackageVersion>24.50.0</PackageVersion>
     <PackageType>Template</PackageType>
     <Title>Netdaemon project template for dotnet cli</Title>
     <Authors>helto4real</Authors>
