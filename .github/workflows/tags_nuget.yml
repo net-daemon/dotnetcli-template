@@ -23,10 +23,10 @@ jobs:
           echo Current version:    $latest
           echo "::set-output name=version::$latest"
 
-      - name: 🥅 Install .Net 9
+      - name: 🥅 Install .Net 10
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: "9.0.x" # SDK Version
+          dotnet-version: "10.0.x" # SDK Version
 
       - name: 🎁 Pack AppModel
         run: dotnet pack . --configuration Release -p:PackageVersion=${{ steps.version.outputs.version }}
