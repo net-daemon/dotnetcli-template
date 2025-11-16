@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>NetDaemon.Templates.Project</PackageId>
-    <PackageVersion>24.50.0</PackageVersion>
+    <PackageVersion>25.45.0</PackageVersion>
     <PackageType>Template</PackageType>
     <Title>Netdaemon project template for dotnet cli</Title>
     <Authors>helto4real</Authors>
